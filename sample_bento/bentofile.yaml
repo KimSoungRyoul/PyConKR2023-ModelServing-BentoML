@@ -1,0 +1,14 @@
+service: "service:svc"
+labels:
+  owner: kimsoungryoul
+  profile: prod
+include:
+  - "service.py"
+  - "configuration.yaml"
+  - "profiling_bento.py"
+exclude:
+  - "test_sample_bentoml_inference.py"
+python:
+  packages:
+    - "torch"
+

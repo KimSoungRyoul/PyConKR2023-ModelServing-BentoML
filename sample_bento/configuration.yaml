@@ -1,0 +1,30 @@
+# offline serving configuration.yaml
+api_server:
+  workers: 3 # Intentionally reduce the number of API wokrers
+
+# customize runners Resource Scheduling Strategy
+runners:
+  workers_per_resource: 3
+
+  pytorch_mnist:
+    resources:
+      nvidia.com/gpu: [ 0, 1 ]
+  pytorch_another_model_runner:
+    resources:
+      nvidia.com/gpu: [ 2 ]
+
+
+
+#  resources:
+#    nvidia.com/gpu: [0, 1, 2]
+#  workers_per_resource: 1
+  traffic:
+    timeout: 300
+    max_concurrency: 30
+  batching:
+    enabled: true
+#    max_batch_size: 100
+#    max_latency_ms: 60000
+
+
+#docker run --rm -e BENTOML_CONFIG=/home/bentoml/bento/src/configuration.yaml iris_classifier:latest serve --production
