@@ -1,0 +1,1 @@
+{"profiledFunctions": [{"file": "/Users/user/workspace/PyConKR2023-ModelServing/iris_classify/service.py", "lineNo": 29, "functionName": "classify", "profiledLines": [{"lineNo": 32, "hits": 1, "time": 1000}, {"lineNo": 33, "hits": 1, "time": 861000}, {"lineNo": 34, "hits": 1, "time": 3120000}, {"lineNo": 35, "hits": 1, "time": 0}]}], "unit": 1e-09}
