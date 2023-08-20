@@ -2,9 +2,10 @@
 Pycon KR 2023 presentation
 
 
-[발표자료 공유 링크](https://github.com/KimSoungRyoul/PyConKR2023-ModelServing-BentoML/issues/1)
+* [발표자료 공유 링크 KR](https://github.com/KimSoungRyoul/PyConKR2023-ModelServing-BentoML/issues/1)
+* [발표자료 공유 링크 ENG]  (이후 업로드 예정)
 
-발표영상 링크 (이후 업로드 예정)
+* 발표영상 링크 (이후 업로드 예정)
 
 [BentoML 공식 Slack KR채널 링크](https://l.bentoml.com/join-slack)
 
