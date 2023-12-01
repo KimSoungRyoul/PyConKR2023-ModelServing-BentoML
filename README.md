@@ -6,7 +6,7 @@ Pycon KR 2023 presentation
 * [[ENG] PyCon2023 KR Presentation PDF Download](https://github.com/KimSoungRyoul/PyConKR2023-ModelServing-BentoML/issues/7)
 
 ## session presentation
-* todo: upload...
+  * [PyCon Korea 2023 발표영상 (Model Serving Architecture with BentoML) ](https://youtu.be/2AjVDjR0jLM?si=QAH9K76JLUzRDTL5)  [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/watch?v=EZgLfDrUlrk)]()
 
 [BentoML Offical Slack Channel Link](https://l.bentoml.com/join-slack)
 
